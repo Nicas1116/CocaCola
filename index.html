@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COCA COLA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="gamearea">
+	<div id="page_outofstock" class="gamepage" style="display:none;">
+		<div class="pagebg pagebg2"><img src="images/page-2-bg.png"/></div>
+		<div class="p_text">Out of Stock</div>
+	</div>
+	<div id="page_start" class="gamepage" style="display:block;">
+		<div class="pagebg pagebg2"><img src="images/page-2-bg.png"/></div>
+		<div class="page1_text1"><img src="images/page1_text1.png"/></div>
+		<div class="page1_text2"><img src="images/page1_text2.png"/></div>
+		<div class="page1_text3"><img src="images/page1_text3.png"/></div>
+		<div class="page1_logo1"><img src="images/page1_logo1.png"/></div>
+		<div class="page1_logo2"><img src="images/page1_logo2.png"/></div>
+		<div class="page1_button1"><img src="images/page1_button1.png"/></div>
+	</div>
+	<div id="page_choose" class="gamepage" style="display:none;">
+		<div class="page2_bg1"></div>
+		<div class="page2_bg2"></div>
+		<div class="pagebg pagebg1"><img src="images/page-bg.png"/></div>
+		<div class="page2_text1"><img src="images/page2_text1.png"/></div>
+		<div class="page2_text2"><img src="images/page2_text2.png"/></div>
+		<div class="page2_text3"><img src="images/page2_text3.png"/></div>
+		
+	</div>
+	<div id="page_inst" class="gamepage" style="display:none;">
+		<div class="pagebg pagebg1"><img src="images/page-bg.png"/></div>
+		<div class="page3_text1"><img src="images/page3_text1.png"/></div>
+		<div class="page3_text2"><img src="images/page3_text2.png"/></div>
+		<div class="page3_text3"><img src="images/page3_text3.png"/></div>
+		<div class="page3_text4"><img src="images/page3_text4.png"/></div>
+		<div class="page3_button1"><img src="images/page3_button1.png"/></div>
+	</div>
+	<div id="page_gameend_nus" class="gamepage" style="display:none;">
+		<div class="page4_text1"><img src="images/page4_text1.png"/></div>
+		<div class="pagebg pagebg1"><img src="images/page-bg.png"/></div>
+		<div class="page4_logo1"><img src="images/page1_logo1.png"/></div>
+		<div class="page4_logo2"><img src="images/page1_logo2.png"/></div>
+		<div class="page4_p_text1">NUS GAINS<span>12</span>FIZZ POINTS</div>
+		<div class="page4_p_text2">3379</div>
+		<div class="page4_p_text3">3379</div>
+	</div>
+	<div id="page_gameend_ntu" class="gamepage" style="display:none;">
+		<div class="page5_text1"><img src="images/page4_text1.png"/></div>
+		<div class="pagebg pagebg1"><img src="images/page-bg.png"/></div>
+		<div class="page5_logo1"><img src="images/page1_logo1.png"/></div>
+		<div class="page5_logo2"><img src="images/page1_logo2.png"/></div>
+		<div class="page5_p_text1">NTU GAINS<span>12</span>FIZZ POINTS</div>
+		<div class="page5_p_text2">3379</div>
+		<div class="page5_p_text3">3379</div>
+	</div>
+	<div id="page_tvc" class="gamepage" style="display:none;">
+		<div class="page_tvc_bg1"></div>
+		<div id="player"></div>
+		<div class="pagebg pagebg1"><img src="images/page-bg.png"/></div>
+		<div class="page_tvc_bg2"></div>
+	</div>
+	<div id="page_game" class="gamepage" style="display:none;">
+		
+		<div class="game_text">lives left:</div>
+		<div class="game_life game_life1"><img src="images/game_life_lefts.png"/></div>
+		<div class="game_life game_life2"><img src="images/game_life_lefts.png"/></div>
+		<div class="game_life game_life3"><img src="images/game_life_lefts.png"/></div>
+		<div class="game_ele game_ele1" data-speed="5"><img src="images/game_ele1.png"/><img class="emotion" src="images/game_emotion2.png"/></div>
+		<div class="game_ele game_ele1" data-speed="5"><img src="images/game_ele1.png"/><img class="emotion" src="images/game_emotion2.png"/></div>
+		<div class="game_ele game_ele1" data-speed="5"><img src="images/game_ele1.png"/><img class="emotion" src="images/game_emotion2.png"/></div>
+		<div class="game_ele game_ele1" data-speed="5"><img src="images/game_ele1.png"/><img class="emotion" src="images/game_emotion2.png"/></div>
+		<div class="game_ele game_obs1" data-speed="5"><img src="images/game_obs1.png"/><img class="emotion" src="images/game_emotion1.png"/></div>
+		<div class="game_ele game_obs2" data-speed="5"><img src="images/game_obs2.png"/><img class="emotion" src="images/game_emotion1.png"/></div>
+		<div class="game_ele game_obs3" data-speed="5"><img src="images/game_obs3.png"/><img class="emotion" src="images/game_emotion1.png"/></div>
+		<div class="game_ele game_obs1" data-speed="5"><img src="images/game_obs1.png"/><img class="emotion" src="images/game_emotion1.png"/></div>
+		<div class="game_ele game_obs2" data-speed="5"><img src="images/game_obs2.png"/><img class="emotion" src="images/game_emotion1.png"/></div>
+		<div class="game_ele game_obs3" data-speed="5"><img src="images/game_obs3.png"/><img class="emotion" src="images/game_emotion1.png"/></div>
+		<div class="pagebg pagebg1"><img src="images/page-bg.png"/></div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'kfXdP7nZIiE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+	  
+      function onPlayerReady(event) {
+    
+      }
+
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.ENDED) {
+          player.playVideo();
+        }
+      }
+      
+    </script>
+</body>
+</html>
